@@ -1,0 +1,4 @@
+baseURL = 'https://cwyueh23.github.io/'
+languageCode = 'en-us'
+title = 'Chang-Wei Personal Site'
+theme = 'anatole'
