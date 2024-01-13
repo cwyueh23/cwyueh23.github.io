@@ -1,4 +1,46 @@
 baseURL = 'https://cwyueh23.github.io/'
 languageCode = 'en-us'
-title = 'Chang-Wei Personal Site'
 theme = 'anatole'
+
+[params]
+title = "Chang-Wei Yueh"
+author = "Chang-Wei Yueh"
+description = """
+Undergraduate student
+National Taiwan University
+"""
+profilePicture = "images/cwyueh.jpg"
+content-ratio = 0.7
+#customCss = ["css/custom.css", "css/styles.css"]
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/chang-wei-yueh-632495232/"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "cwyueh23@gmail.com"
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/cwyueh23/cwyueh23.github.io"
+
+[menu]
+
+ 
+  [[menu.main]]
+  name = "About"
+  weight = 100
+  identifier = "about"
+  url = "/about/"
+  [[menu.main]]
+  name = "Research"
+  weight = 200
+  identifier = "research"
+  url = "/research/"
+  [[menu.main]]
+  name = "Publication"
+  weight = 300
+  identifier = "pub"
+  url = "/pub/"
