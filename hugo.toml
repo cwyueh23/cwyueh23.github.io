@@ -6,11 +6,12 @@ theme = 'anatole'
 title = "Chang-Wei Yueh"
 author = "Chang-Wei Yueh"
 description = """
-Undergraduate student
+Undergraduate student 
 National Taiwan University
 """
 profilePicture = "images/cwyueh.jpg"
 contentratio = 0.7
+mainSections = []
 
 
 #customCss = ["css/custom.css", "css/styles.css"]
@@ -34,8 +35,8 @@ url = "https://github.com/cwyueh23/cwyueh23.github.io"
   [[menu.main]]
   name = "About"
   weight = 100
-  identifier = "about"
-  url = "/about/"
+  identifier = "home"
+  url = "/"
   [[menu.main]]
   name = "Research"
   weight = 200
