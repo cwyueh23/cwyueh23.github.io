@@ -6,9 +6,8 @@ theme = 'anatole'
 title = "Chang-Wei Yueh"
 author = "Chang-Wei Yueh"
 description = """
-Undergraduate student 
-National Taiwan University
-"""
+Ph.D. student 
+University of Southern California"""
 profilePicture = "images/cwyueh.jpg"
 contentratio = 0.7
 mainSections = []
