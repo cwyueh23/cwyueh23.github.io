@@ -12,6 +12,9 @@ National Taiwan University
 profilePicture = "images/cwyueh.jpg"
 contentratio = 0.7
 mainSections = []
+postSectionName = "research"
+doNotLoadAnimations = true
+
 
 
 #customCss = ["css/custom.css", "css/styles.css"]
@@ -37,13 +40,14 @@ url = "https://github.com/cwyueh23/cwyueh23.github.io"
   weight = 100
   identifier = "home"
   url = "/"
+
   [[menu.main]]
-  name = "Research"
-  weight = 200
-  identifier = "research"
-  url = "/research/"
-  [[menu.main]]
-  name = "Publication"
+  name = "Publications"
   weight = 300
   identifier = "pub"
   url = "/pub/"
+  [[menu.main]]
+  name = "CV"
+  weight = 400
+  identifier = "cv"
+  url = "/cwyueh_cv.pdf"
