@@ -1,6 +1,6 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "Chang-Wei Yueh"
+description = "Chang-Wei's Homepage"
 date = "2019-02-28"
 author = "Chang-Wei Yueh"
 +++
